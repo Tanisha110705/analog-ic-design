@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="560" viewBox="0 0 800 560" role="img" aria-label="Cascode amplifier with resistive load">
+<title>Cascode amplifier with resistive load</title>
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1f2933"/></marker></defs>
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="400" y="32" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#1f2933" text-anchor="middle" font-weight="bold">Cascode Amplifier, Resistive Load (as simulated)</text>
+<line x1="300" y1="78" x2="720" y2="78" stroke="#1f2933" stroke-width="2.5"/>
+<text x="510.0" y="70" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#1f2933" text-anchor="middle" font-weight="bold">VDD = 1.8 V</text>
+<polyline points="380,78 380,97.4 389,102.25 371,111.95 389,121.65 371,131.35 389,141.05 371,150.75 380,155.6 380,175" fill="none" stroke="#1f2933" stroke-width="2" stroke-linejoin="round"/>
+<text x="396" y="124.5" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#1f2933" text-anchor="start" font-weight="bold">RD</text>
+<text x="396" y="140.5" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#52606d" text-anchor="start" font-weight="normal">1591 Ω hand calc; see notes</text>
+<line x1="380" y1="175" x2="380" y2="198" stroke="#1f2933" stroke-width="2"/>
+<circle cx="380" cy="190" r="3.5" fill="#1f2933"/>
+<line x1="380" y1="190" x2="600" y2="190" stroke="#1f2933" stroke-width="2"/>
+<circle cx="600" cy="190" r="3.5" fill="#1f2933"/>
+<line x1="600" y1="190" x2="650" y2="190" stroke="#1f2933" stroke-width="2" marker-end="url(#arr)"/>
+<text x="656" y="195" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#0b6bcb" text-anchor="start" font-weight="bold">VOUT</text>
+<line x1="600" y1="190" x2="600" y2="310.0" stroke="#1f2933" stroke-width="2"/>
+<line x1="586" y1="310.0" x2="614" y2="310.0" stroke="#1f2933" stroke-width="2.5"/>
+<line x1="586" y1="320.0" x2="614" y2="320.0" stroke="#1f2933" stroke-width="2.5"/>
+<line x1="600" y1="320.0" x2="600" y2="440" stroke="#1f2933" stroke-width="2"/>
+<text x="620" y="320.0" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#1f2933" text-anchor="start" font-weight="bold">CL = 5 pF</text>
+<line x1="358" y1="220" x2="358" y2="260" stroke="#1f2933" stroke-width="3"/>
+<line x1="349" y1="224" x2="349" y2="256" stroke="#1f2933" stroke-width="2"/>
+<line x1="324" y1="240" x2="349" y2="240" stroke="#1f2933" stroke-width="2"/>
+<polyline points="358,226 380,226 380,198" fill="none" stroke="#1f2933" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="358,254 380,254 380,282" fill="none" stroke="#1f2933" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="376,254 368,249 368,259" fill="#1f2933"/>
+<text x="412" y="238" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#1f2933" text-anchor="start" font-weight="bold">M1 (cascode)</text>
+<text x="412" y="254" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#52606d" text-anchor="start" font-weight="normal">W/L ≈ 46.5–46.8 µm / 180 nm</text>
+<line x1="380" y1="282" x2="380" y2="318" stroke="#1f2933" stroke-width="2"/>
+<line x1="358" y1="340" x2="358" y2="380" stroke="#1f2933" stroke-width="3"/>
+<line x1="349" y1="344" x2="349" y2="376" stroke="#1f2933" stroke-width="2"/>
+<line x1="324" y1="360" x2="349" y2="360" stroke="#1f2933" stroke-width="2"/>
+<polyline points="358,346 380,346 380,318" fill="none" stroke="#1f2933" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="358,374 380,374 380,402" fill="none" stroke="#1f2933" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="376,374 368,369 368,379" fill="#1f2933"/>
+<text x="412" y="358" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#1f2933" text-anchor="start" font-weight="bold">M2 (input)</text>
+<text x="412" y="374" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#52606d" text-anchor="start" font-weight="normal">W/L = 46.5 µm / 180 nm</text>
+<line x1="380" y1="402" x2="380" y2="440" stroke="#1f2933" stroke-width="2"/>
+<line x1="210" y1="440" x2="720" y2="440" stroke="#1f2933" stroke-width="2.5"/>
+<line x1="380" y1="440" x2="380" y2="448" stroke="#1f2933" stroke-width="2"/>
+<line x1="368" y1="448" x2="392" y2="448" stroke="#1f2933" stroke-width="2"/>
+<line x1="373" y1="453" x2="387" y2="453" stroke="#1f2933" stroke-width="2"/>
+<line x1="377" y1="458" x2="383" y2="458" stroke="#1f2933" stroke-width="2"/>
+<line x1="324" y1="240" x2="210" y2="240" stroke="#1f2933" stroke-width="2"/>
+<line x1="210" y1="240" x2="210" y2="324.0" stroke="#1f2933" stroke-width="2"/>
+<line x1="210" y1="356.0" x2="210" y2="440" stroke="#1f2933" stroke-width="2"/>
+<circle cx="210" cy="340.0" r="16" fill="white" stroke="#1f2933" stroke-width="2"/>
+<text x="210" y="337.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#1f2933" text-anchor="middle" font-weight="normal">+</text>
+<text x="210" y="351.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#1f2933" text-anchor="middle" font-weight="normal">−</text>
+<text x="192" y="330" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#1f2933" text-anchor="end" font-weight="bold">VB = 1.078 V</text>
+<text x="192" y="346" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#52606d" text-anchor="end" font-weight="normal">cascode gate</text>
+<line x1="324" y1="360" x2="280" y2="360" stroke="#1f2933" stroke-width="2"/>
+<line x1="280" y1="360" x2="280" y2="384.0" stroke="#1f2933" stroke-width="2"/>
+<line x1="280" y1="416.0" x2="280" y2="440" stroke="#1f2933" stroke-width="2"/>
+<circle cx="280" cy="400.0" r="16" fill="white" stroke="#1f2933" stroke-width="2"/>
+<path d="M271,400.0 q4.5,-9 9,0 t9,0" fill="none" stroke="#1f2933" stroke-width="1.6"/>
+<text x="300" y="404" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#1f2933" text-anchor="start" font-weight="bold">VIN</text>
+<text x="300" y="420" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#52606d" text-anchor="start" font-weight="normal">≈ 574 mV DC</text>
+<line x1="720" y1="78" x2="720" y2="243.0" stroke="#1f2933" stroke-width="2"/>
+<line x1="720" y1="275.0" x2="720" y2="440" stroke="#1f2933" stroke-width="2"/>
+<circle cx="720" cy="259.0" r="16" fill="white" stroke="#1f2933" stroke-width="2"/>
+<text x="720" y="256.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#1f2933" text-anchor="middle" font-weight="normal">+</text>
+<text x="720" y="270.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#1f2933" text-anchor="middle" font-weight="normal">−</text>
+<text x="744" y="260" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#52606d" text-anchor="start" font-weight="normal">1.8 V</text>
+<text x="400" y="490" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#52606d" text-anchor="middle" font-weight="normal">Rout ≈ RD ‖ (gm1·ro1·ro2) ≈ RD, so gain ≈ gm2·RD and the output pole ≈ 1/(2π·RD·CL).</text>
+<text x="400" y="508" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#0b6bcb" text-anchor="middle" font-weight="normal">Reported: max gain 17.7657 dB, f−3dB 20.1298 MHz (targets: 20 dB, 20 MHz).</text>
+<text x="400.0" y="548" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#52606d" text-anchor="middle" font-weight="normal" font-style="italic">Redrawn from the Virtuoso schematic (UMC 180 nm, N_18_MM). RD label discrepancy discussed in docs/cascode-amplifier.md.</text>
+</svg>

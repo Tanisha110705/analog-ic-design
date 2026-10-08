@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="470" viewBox="0 0 760 470" role="img" aria-label="Simple NMOS current mirror">
+<title>Simple NMOS current mirror</title>
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1f2933"/></marker></defs>
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="380" y="32" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#1f2933" text-anchor="middle" font-weight="bold">Simple NMOS Current Mirror (as simulated)</text>
+<line x1="120" y1="70" x2="300" y2="70" stroke="#1f2933" stroke-width="2.5"/>
+<text x="210.0" y="62" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#1f2933" text-anchor="middle" font-weight="bold">VDD = 1.8 V</text>
+<line x1="208" y1="70" x2="208" y2="104.0" stroke="#1f2933" stroke-width="2"/>
+<line x1="208" y1="136.0" x2="208" y2="170" stroke="#1f2933" stroke-width="2"/>
+<circle cx="208" cy="120.0" r="16" fill="white" stroke="#1f2933" stroke-width="2"/>
+<line x1="208" y1="111.0" x2="208" y2="127.0" stroke="#1f2933" stroke-width="2" marker-end="url(#arr)"/>
+<text x="184" y="125.0" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#1f2933" text-anchor="end" font-weight="bold">IREF = 100 µA / 500 µA</text>
+<line x1="230" y1="242" x2="230" y2="282" stroke="#1f2933" stroke-width="3"/>
+<line x1="239" y1="246" x2="239" y2="278" stroke="#1f2933" stroke-width="2"/>
+<line x1="264" y1="262" x2="239" y2="262" stroke="#1f2933" stroke-width="2"/>
+<polyline points="230,248 208,248 208,220" fill="none" stroke="#1f2933" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="230,276 208,276 208,304" fill="none" stroke="#1f2933" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="212,276 220,271 220,281" fill="#1f2933"/>
+<text x="176" y="260" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#1f2933" text-anchor="end" font-weight="bold">M2</text>
+<text x="176" y="276" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#52606d" text-anchor="end" font-weight="normal">18.49 / 0.18 µm</text>
+<line x1="430" y1="242" x2="430" y2="282" stroke="#1f2933" stroke-width="3"/>
+<line x1="421" y1="246" x2="421" y2="278" stroke="#1f2933" stroke-width="2"/>
+<line x1="396" y1="262" x2="421" y2="262" stroke="#1f2933" stroke-width="2"/>
+<polyline points="430,248 452,248 452,220" fill="none" stroke="#1f2933" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="430,276 452,276 452,304" fill="none" stroke="#1f2933" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="448,276 440,271 440,281" fill="#1f2933"/>
+<text x="484" y="260" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#1f2933" text-anchor="start" font-weight="bold">M0</text>
+<text x="484" y="276" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#52606d" text-anchor="start" font-weight="normal">18.49 / 0.18 µm</text>
+<line x1="208" y1="170" x2="208" y2="220" stroke="#1f2933" stroke-width="2"/>
+<circle cx="208" cy="196" r="3.5" fill="#1f2933"/>
+<polyline points="208,196 330,196 330,262" fill="none" stroke="#1f2933" stroke-width="2" stroke-linejoin="round"/>
+<line x1="264" y1="262" x2="396" y2="262" stroke="#1f2933" stroke-width="2"/>
+<circle cx="330" cy="262" r="3.5" fill="#1f2933"/>
+<line x1="208" y1="304" x2="208" y2="360" stroke="#1f2933" stroke-width="2"/>
+<line x1="452" y1="304" x2="452" y2="360" stroke="#1f2933" stroke-width="2"/>
+<line x1="208" y1="360" x2="640" y2="360" stroke="#1f2933" stroke-width="2.5"/>
+<line x1="330" y1="360" x2="330" y2="368" stroke="#1f2933" stroke-width="2"/>
+<line x1="318" y1="368" x2="342" y2="368" stroke="#1f2933" stroke-width="2"/>
+<line x1="323" y1="373" x2="337" y2="373" stroke="#1f2933" stroke-width="2"/>
+<line x1="327" y1="378" x2="333" y2="378" stroke="#1f2933" stroke-width="2"/>
+<line x1="452" y1="220" x2="452" y2="140" stroke="#1f2933" stroke-width="2"/>
+<line x1="452" y1="140" x2="640" y2="140" stroke="#1f2933" stroke-width="2"/>
+<text x="462" y="130" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#0b6bcb" text-anchor="start" font-weight="bold">IOUT</text>
+<line x1="640" y1="140" x2="640" y2="234.0" stroke="#1f2933" stroke-width="2"/>
+<line x1="640" y1="266.0" x2="640" y2="360" stroke="#1f2933" stroke-width="2"/>
+<circle cx="640" cy="250.0" r="16" fill="white" stroke="#1f2933" stroke-width="2"/>
+<text x="640" y="247.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#1f2933" text-anchor="middle" font-weight="normal">+</text>
+<text x="640" y="261.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#1f2933" text-anchor="middle" font-weight="normal">−</text>
+<text x="664" y="246" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#1f2933" text-anchor="start" font-weight="bold">VOUT</text>
+<text x="664" y="262" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#52606d" text-anchor="start" font-weight="normal">swept 0 → 1.8 V</text>
+<text x="380" y="410" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#52606d" text-anchor="middle" font-weight="normal">M2 is diode-connected; with equal sizes M0 copies IREF when VDS0 ≈ VGS.</text>
+<text x="380" y="428" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#52606d" text-anchor="middle" font-weight="normal">Away from that point Iout follows VOUT through channel-length modulation (L = 180 nm).</text>
+<text x="380.0" y="458" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#52606d" text-anchor="middle" font-weight="normal" font-style="italic">Redrawn from the Virtuoso schematic (UMC 180 nm, N_18_MM). Not simulation output.</text>
+</svg>

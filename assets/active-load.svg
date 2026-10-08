@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="540" viewBox="0 0 760 540" role="img" aria-label="Common-source amplifier with PMOS current-mirror active load">
+<title>Common-source amplifier with PMOS current-mirror active load</title>
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1f2933"/></marker></defs>
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="380" y="32" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#1f2933" text-anchor="middle" font-weight="bold">Common-Source Amplifier with Active Load (design topology)</text>
+<line x1="150" y1="78" x2="600" y2="78" stroke="#1f2933" stroke-width="2.5"/>
+<text x="375.0" y="70" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#1f2933" text-anchor="middle" font-weight="bold">VDD = 1.8 V</text>
+<line x1="230" y1="140" x2="230" y2="180" stroke="#1f2933" stroke-width="3"/>
+<line x1="239" y1="144" x2="239" y2="176" stroke="#1f2933" stroke-width="2"/>
+<circle cx="243" cy="160" r="4" fill="white" stroke="#1f2933" stroke-width="1.8"/>
+<line x1="264" y1="160" x2="247" y2="160" stroke="#1f2933" stroke-width="2"/>
+<polyline points="230,146 208,146 208,118" fill="none" stroke="#1f2933" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="230,174 208,174 208,202" fill="none" stroke="#1f2933" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="222,146 214,141 214,151" fill="#1f2933"/>
+<text x="176" y="158" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#1f2933" text-anchor="end" font-weight="bold">Mp1</text>
+<text x="176" y="174" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#52606d" text-anchor="end" font-weight="normal">diode-connected</text>
+<line x1="430" y1="140" x2="430" y2="180" stroke="#1f2933" stroke-width="3"/>
+<line x1="421" y1="144" x2="421" y2="176" stroke="#1f2933" stroke-width="2"/>
+<circle cx="417" cy="160" r="4" fill="white" stroke="#1f2933" stroke-width="1.8"/>
+<line x1="396" y1="160" x2="413" y2="160" stroke="#1f2933" stroke-width="2"/>
+<polyline points="430,146 452,146 452,118" fill="none" stroke="#1f2933" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="430,174 452,174 452,202" fill="none" stroke="#1f2933" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="438,146 446,141 446,151" fill="#1f2933"/>
+<text x="484" y="158" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#1f2933" text-anchor="start" font-weight="bold">Mp2 (load)</text>
+<text x="484" y="174" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#52606d" text-anchor="start" font-weight="normal">W ≈ 35.4 µm (hand calc)</text>
+<line x1="208" y1="118" x2="208" y2="78" stroke="#1f2933" stroke-width="2"/>
+<line x1="452" y1="118" x2="452" y2="78" stroke="#1f2933" stroke-width="2"/>
+<line x1="264" y1="160" x2="396" y2="160" stroke="#1f2933" stroke-width="2"/>
+<circle cx="330" cy="160" r="3.5" fill="#1f2933"/>
+<line x1="208" y1="202" x2="208" y2="270" stroke="#1f2933" stroke-width="2"/>
+<circle cx="208" cy="226" r="3.5" fill="#1f2933"/>
+<polyline points="208,226 330,226 330,160" fill="none" stroke="#1f2933" stroke-width="2" stroke-linejoin="round"/>
+<line x1="208" y1="270" x2="208" y2="314.0" stroke="#1f2933" stroke-width="2"/>
+<line x1="208" y1="346.0" x2="208" y2="390" stroke="#1f2933" stroke-width="2"/>
+<circle cx="208" cy="330.0" r="16" fill="white" stroke="#1f2933" stroke-width="2"/>
+<line x1="208" y1="321.0" x2="208" y2="337.0" stroke="#1f2933" stroke-width="2" marker-end="url(#arr)"/>
+<text x="184" y="335.0" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#1f2933" text-anchor="end" font-weight="bold">IREF</text>
+<line x1="208" y1="390" x2="208" y2="440" stroke="#1f2933" stroke-width="2"/>
+<line x1="452" y1="202" x2="452" y2="268" stroke="#1f2933" stroke-width="2"/>
+<circle cx="452" cy="240" r="3.5" fill="#1f2933"/>
+<line x1="452" y1="240" x2="660" y2="240" stroke="#1f2933" stroke-width="2" marker-end="url(#arr)"/>
+<text x="666" y="245" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#0b6bcb" text-anchor="start" font-weight="bold">VOUT</text>
+<circle cx="620" cy="240" r="3.5" fill="#1f2933"/>
+<line x1="620" y1="240" x2="620" y2="335.0" stroke="#1f2933" stroke-width="2"/>
+<line x1="606" y1="335.0" x2="634" y2="335.0" stroke="#1f2933" stroke-width="2.5"/>
+<line x1="606" y1="345.0" x2="634" y2="345.0" stroke="#1f2933" stroke-width="2.5"/>
+<line x1="620" y1="345.0" x2="620" y2="440" stroke="#1f2933" stroke-width="2"/>
+<text x="640" y="345.0" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#1f2933" text-anchor="start" font-weight="bold">CL = 5 pF</text>
+<line x1="430" y1="290" x2="430" y2="330" stroke="#1f2933" stroke-width="3"/>
+<line x1="421" y1="294" x2="421" y2="326" stroke="#1f2933" stroke-width="2"/>
+<line x1="396" y1="310" x2="421" y2="310" stroke="#1f2933" stroke-width="2"/>
+<polyline points="430,296 452,296 452,268" fill="none" stroke="#1f2933" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="430,324 452,324 452,352" fill="none" stroke="#1f2933" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="448,324 440,319 440,329" fill="#1f2933"/>
+<text x="484" y="308" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#1f2933" text-anchor="start" font-weight="bold">Mn (input)</text>
+<text x="484" y="324" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#52606d" text-anchor="start" font-weight="normal">W ≈ 9.76 µm (hand calc)</text>
+<line x1="452" y1="352" x2="452" y2="440" stroke="#1f2933" stroke-width="2"/>
+<line x1="396" y1="310" x2="340" y2="310" stroke="#1f2933" stroke-width="2"/>
+<text x="332" y="315" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#1f2933" text-anchor="end" font-weight="bold">VIN</text>
+<line x1="160" y1="440" x2="680" y2="440" stroke="#1f2933" stroke-width="2.5"/>
+<line x1="452" y1="440" x2="452" y2="448" stroke="#1f2933" stroke-width="2"/>
+<line x1="440" y1="448" x2="464" y2="448" stroke="#1f2933" stroke-width="2"/>
+<line x1="445" y1="453" x2="459" y2="453" stroke="#1f2933" stroke-width="2"/>
+<line x1="449" y1="458" x2="455" y2="458" stroke="#1f2933" stroke-width="2"/>
+<text x="380" y="484" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#52606d" text-anchor="middle" font-weight="normal">Av ≈ −gmn·(ron ‖ rop): the load is a current source, so gain no longer depends on a resistor drop.</text>
+<text x="380" y="502" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#0b6bcb" text-anchor="middle" font-weight="normal">Reported (handwritten): max gain 18.966 dB, f−3dB 11.9539 MHz, 0 dB crossing ≈ 105.7 MHz.</text>
+<text x="380.0" y="528" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#52606d" text-anchor="middle" font-weight="normal" font-style="italic">Redrawn from the hand-drawn circuit diagram; no amplifier schematic screenshot exists. Devices n18/p18, L = 0.18 µm.</text>
+</svg>

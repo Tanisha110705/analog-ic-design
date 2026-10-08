@@ -1,0 +1,27 @@
+# Cadence / Spectre working data (never commit PDK, models or simulation dumps)
+*.cdslck
+*.cdslck.*
+.cadence/
+cds.lib
+cds.lib.*
+.cdsinit
+.cdsenv
+libManager.log*
+CDS.log*
+*.log
+simulation/
+psf/
+*.raw
+*.tran
+*.ac
+*.dc
+*.pz
+
+# Source reports (contain institutional paths and IDs; crops are committed instead)
+*.pdf
+
+# Python / OS
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db

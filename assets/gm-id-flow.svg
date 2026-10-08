@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="700" viewBox="0 0 940 700" role="img" aria-label="gm/Id sizing flow">
+<title>gm/Id sizing flow</title>
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1f2933"/></marker></defs>
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="470" y="34" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#1f2933" text-anchor="middle" font-weight="bold">gm/Id Sizing Flow</text>
+<text x="470" y="56" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#52606d" text-anchor="middle" font-weight="normal">Left: generic procedure used in the studies.  Right: the common-source worked example (UMC 180 nm, N_18_MM, L = 180 nm).</text>
+<rect x="60" y="76" width="330" height="54" rx="8" fill="#eef4fb" stroke="#0b6bcb" stroke-width="1.5"/>
+<text x="225.0" y="98.16666666666667" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#1f2933" text-anchor="middle" font-weight="bold">Target Id</text>
+<text x="225.0" y="117.16666666666667" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#52606d" text-anchor="middle" font-weight="normal">from supply, swing or power budget</text>
+<line x1="225.0" y1="130" x2="225.0" y2="146" stroke="#1f2933" stroke-width="2" marker-end="url(#arr)"/>
+<rect x="60" y="148" width="330" height="54" rx="8" fill="#eef4fb" stroke="#0b6bcb" stroke-width="1.5"/>
+<text x="225.0" y="170.16666666666666" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#1f2933" text-anchor="middle" font-weight="bold">Target gm</text>
+<text x="225.0" y="189.16666666666666" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#52606d" text-anchor="middle" font-weight="normal">gm = 2π · CL · GBW (or from gain)</text>
+<line x1="225.0" y1="202" x2="225.0" y2="218" stroke="#1f2933" stroke-width="2" marker-end="url(#arr)"/>
+<rect x="60" y="220" width="330" height="54" rx="8" fill="#eef4fb" stroke="#0b6bcb" stroke-width="1.5"/>
+<text x="225.0" y="242.16666666666666" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#1f2933" text-anchor="middle" font-weight="bold">Target gm/Id</text>
+<text x="225.0" y="261.16666666666663" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#52606d" text-anchor="middle" font-weight="normal">gm / Id</text>
+<line x1="225.0" y1="274" x2="225.0" y2="290" stroke="#1f2933" stroke-width="2" marker-end="url(#arr)"/>
+<rect x="60" y="292" width="330" height="54" rx="8" fill="#eef4fb" stroke="#0b6bcb" stroke-width="1.5"/>
+<text x="225.0" y="314.1666666666667" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#1f2933" text-anchor="middle" font-weight="bold">Find VGS</text>
+<text x="225.0" y="333.1666666666667" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#52606d" text-anchor="middle" font-weight="normal">gm/Id vs VGS sweep</text>
+<line x1="225.0" y1="346" x2="225.0" y2="362" stroke="#1f2933" stroke-width="2" marker-end="url(#arr)"/>
+<rect x="60" y="364" width="330" height="54" rx="8" fill="#eef4fb" stroke="#0b6bcb" stroke-width="1.5"/>
+<text x="225.0" y="386.1666666666667" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#1f2933" text-anchor="middle" font-weight="bold">Find Id/W</text>
+<text x="225.0" y="405.1666666666667" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#52606d" text-anchor="middle" font-weight="normal">Id/W vs gm/Id sweep</text>
+<line x1="225.0" y1="418" x2="225.0" y2="434" stroke="#1f2933" stroke-width="2" marker-end="url(#arr)"/>
+<rect x="60" y="436" width="330" height="54" rx="8" fill="#eef4fb" stroke="#0b6bcb" stroke-width="1.5"/>
+<text x="225.0" y="458.1666666666667" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#1f2933" text-anchor="middle" font-weight="bold">Calculate W</text>
+<text x="225.0" y="477.1666666666667" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#52606d" text-anchor="middle" font-weight="normal">W = Id / (Id/W)</text>
+<line x1="225.0" y1="490" x2="225.0" y2="506" stroke="#1f2933" stroke-width="2" marker-end="url(#arr)"/>
+<rect x="60" y="508" width="330" height="54" rx="8" fill="#eef4fb" stroke="#0b6bcb" stroke-width="1.5"/>
+<text x="225.0" y="530.1666666666666" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#1f2933" text-anchor="middle" font-weight="bold">Build circuit and simulate</text>
+<text x="225.0" y="549.1666666666666" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#52606d" text-anchor="middle" font-weight="normal">DC, AC, pole-zero</text>
+<line x1="225.0" y1="562" x2="225.0" y2="578" stroke="#1f2933" stroke-width="2" marker-end="url(#arr)"/>
+<rect x="60" y="580" width="330" height="54" rx="8" fill="#eef4fb" stroke="#0b6bcb" stroke-width="1.5"/>
+<text x="225.0" y="602.1666666666666" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#1f2933" text-anchor="middle" font-weight="bold">Validate</text>
+<text x="225.0" y="621.1666666666666" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#52606d" text-anchor="middle" font-weight="normal">compare against target</text>
+<line x1="392" y1="103" x2="470" y2="103" stroke="#52606d" stroke-width="1.2" stroke-dasharray="4 3"/>
+<rect x="472" y="78" width="410" height="50" rx="6" fill="#fdf3e7" stroke="#b44d12" stroke-width="1.2"/>
+<text x="486" y="100" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#1f2933" text-anchor="start" font-weight="bold">Id = 0.9 V / 1.52 kΩ ≈ 0.592 mA</text>
+<text x="486" y="118" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#52606d" text-anchor="start" font-weight="normal" font-style="italic">hand calc (VOUT bias 0.9 V)</text>
+<line x1="392" y1="175" x2="470" y2="175" stroke="#52606d" stroke-width="1.2" stroke-dasharray="4 3"/>
+<rect x="472" y="150" width="410" height="50" rx="6" fill="#fdf3e7" stroke="#b44d12" stroke-width="1.2"/>
+<text x="486" y="172" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#1f2933" text-anchor="start" font-weight="bold">gm = 2π·5 pF·100 MHz = 3.14 mS</text>
+<text x="486" y="190" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#52606d" text-anchor="start" font-weight="normal" font-style="italic">hand calc</text>
+<line x1="392" y1="247" x2="470" y2="247" stroke="#52606d" stroke-width="1.2" stroke-dasharray="4 3"/>
+<rect x="472" y="222" width="410" height="50" rx="6" fill="#fdf3e7" stroke="#b44d12" stroke-width="1.2"/>
+<text x="486" y="244" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#1f2933" text-anchor="start" font-weight="bold">gm/Id = 5.34 V⁻¹</text>
+<text x="486" y="262" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#52606d" text-anchor="start" font-weight="normal" font-style="italic">hand calc</text>
+<line x1="392" y1="319" x2="470" y2="319" stroke="#52606d" stroke-width="1.2" stroke-dasharray="4 3"/>
+<rect x="472" y="294" width="410" height="50" rx="6" fill="#fdf3e7" stroke="#b44d12" stroke-width="1.2"/>
+<text x="486" y="316" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#1f2933" text-anchor="start" font-weight="bold">VGS = 760.986 mV</text>
+<text x="486" y="334" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#52606d" text-anchor="start" font-weight="normal" font-style="italic">marker on simulated gm/Id–VGS</text>
+<line x1="392" y1="391" x2="470" y2="391" stroke="#52606d" stroke-width="1.2" stroke-dasharray="4 3"/>
+<rect x="472" y="366" width="410" height="50" rx="6" fill="#fdf3e7" stroke="#b44d12" stroke-width="1.2"/>
+<text x="486" y="388" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#1f2933" text-anchor="start" font-weight="bold">Id/W = 72.229 A/m (µA/µm)</text>
+<text x="486" y="406" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#52606d" text-anchor="start" font-weight="normal" font-style="italic">marker on simulated Id/W–gm/Id</text>
+<line x1="392" y1="463" x2="470" y2="463" stroke="#52606d" stroke-width="1.2" stroke-dasharray="4 3"/>
+<rect x="472" y="438" width="410" height="50" rx="6" fill="#fdf3e7" stroke="#b44d12" stroke-width="1.2"/>
+<text x="486" y="460" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#1f2933" text-anchor="start" font-weight="bold">0.592 mA / 72.229 A/m ≈ 8.20 µm</text>
+<text x="486" y="478" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#52606d" text-anchor="start" font-weight="normal" font-style="italic">calculated · schematic uses 8.4 µm</text>
+<line x1="392" y1="535" x2="470" y2="535" stroke="#52606d" stroke-width="1.2" stroke-dasharray="4 3"/>
+<rect x="472" y="510" width="410" height="50" rx="6" fill="#fdf3e7" stroke="#b44d12" stroke-width="1.2"/>
+<text x="486" y="532" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#1f2933" text-anchor="start" font-weight="bold">RD = 1.5 kΩ, CL = 5 pF, VIN,DC = 771 mV</text>
+<text x="486" y="550" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#52606d" text-anchor="start" font-weight="normal" font-style="italic">schematic values</text>
+<line x1="392" y1="607" x2="470" y2="607" stroke="#52606d" stroke-width="1.2" stroke-dasharray="4 3"/>
+<rect x="472" y="582" width="410" height="50" rx="6" fill="#fdf3e7" stroke="#b44d12" stroke-width="1.2"/>
+<text x="486" y="604" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#1f2933" text-anchor="start" font-weight="bold">Spectre pz: DC gain 3.886 V/V, pole 25.97 MHz</text>
+<text x="486" y="622" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#52606d" text-anchor="start" font-weight="normal" font-style="italic">simulated</text>
+<text x="470.0" y="688" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#52606d" text-anchor="middle" font-weight="normal" font-style="italic">Conceptual flow. Example numbers are traceable in docs/common-source.md.</text>
+</svg>

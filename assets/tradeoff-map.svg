@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="560" viewBox="0 0 920 560" role="img" aria-label="Design trade-off map">
+<title>Design trade-off map</title>
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1f2933"/></marker></defs>
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="460" y="32" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#1f2933" text-anchor="middle" font-weight="bold">Trade-off Map</text>
+<text x="460" y="52" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#52606d" text-anchor="middle" font-weight="normal">Qualitative axes, not to scale. Points are placed by topology, not by measured values.</text>
+<line x1="90" y1="470" x2="430" y2="470" stroke="#1f2933" stroke-width="2" marker-end="url(#arr)"/>
+<line x1="90" y1="470" x2="90" y2="110" stroke="#1f2933" stroke-width="2" marker-end="url(#arr)"/>
+<text x="260.0" y="504" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#1f2933" text-anchor="middle" font-weight="normal">Minimum output voltage (headroom used) →</text>
+<text x="60" y="290.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#1f2933" text-anchor="middle" transform="rotate(-90 60 290.0)">Output resistance / current accuracy →</text>
+<circle cx="170" cy="380" r="9" fill="#0b6bcb"/>
+<text x="186" y="376" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#1f2933" text-anchor="start" font-weight="bold">Simple mirror</text>
+<text x="186" y="392" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#52606d" text-anchor="start" font-weight="normal">≈ Vdsat headroom, Rout ≈ ro</text>
+<circle cx="310" cy="180" r="9" fill="#b44d12"/>
+<text x="326" y="176" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#1f2933" text-anchor="start" font-weight="bold">Cascode mirror</text>
+<text x="326" y="192" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#52606d" text-anchor="start" font-weight="normal">≈ VGS+Vdsat · Rout ≈ gm·ro²</text>
+<line x1="182" y1="370" x2="300" y2="190" stroke="#52606d" stroke-width="1.2" stroke-dasharray="5 4" marker-end="url(#arr)"/>
+<text x="260" y="285" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#52606d" text-anchor="start" font-weight="normal">+2 devices, +1 bias level</text>
+<rect x="500" y="92" width="390" height="56" rx="6" fill="#eef4fb" stroke="#0b6bcb" stroke-width="1.2"/>
+<text x="514" y="115" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#1f2933" text-anchor="start" font-weight="bold">Gain vs bandwidth</text>
+<text x="514" y="134" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#52606d" text-anchor="start" font-weight="normal">Larger RD raises gm·RD but lowers 1/(2π·RD·CL).</text>
+<rect x="500" y="162" width="390" height="56" rx="6" fill="#fdf3e7" stroke="#b44d12" stroke-width="1.2"/>
+<text x="514" y="185" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#1f2933" text-anchor="start" font-weight="bold">Output resistance vs headroom</text>
+<text x="514" y="204" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#52606d" text-anchor="start" font-weight="normal">Cascoding stacks a device and one more Vdsat.</text>
+<rect x="500" y="232" width="390" height="56" rx="6" fill="#eef4fb" stroke="#0b6bcb" stroke-width="1.2"/>
+<text x="514" y="255" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#1f2933" text-anchor="start" font-weight="bold">Current accuracy vs complexity</text>
+<text x="514" y="274" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#52606d" text-anchor="start" font-weight="normal">Cascode mirror held Iout ≈ IREF; simple did not.</text>
+<rect x="500" y="302" width="390" height="56" rx="6" fill="#fdf3e7" stroke="#b44d12" stroke-width="1.2"/>
+<text x="514" y="325" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#1f2933" text-anchor="start" font-weight="bold">Width vs capacitance</text>
+<text x="514" y="344" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#52606d" text-anchor="start" font-weight="normal">Wider W at fixed Id → higher gm/Id, more Cgs.</text>
+<rect x="500" y="372" width="390" height="56" rx="6" fill="#eef4fb" stroke="#0b6bcb" stroke-width="1.2"/>
+<text x="514" y="395" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#1f2933" text-anchor="start" font-weight="bold">Cascode gain vs swing</text>
+<text x="514" y="414" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#52606d" text-anchor="start" font-weight="normal">Two stacked devices share the 1.8 V supply.</text>
+<rect x="500" y="442" width="390" height="56" rx="6" fill="#fdf3e7" stroke="#b44d12" stroke-width="1.2"/>
+<text x="514" y="465" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#1f2933" text-anchor="start" font-weight="bold">Sizing vs speed</text>
+<text x="514" y="484" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#52606d" text-anchor="start" font-weight="normal">Low gm/Id (strong inversion) → higher fT.</text>
+<text x="460.0" y="548" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#52606d" text-anchor="middle" font-weight="normal" font-style="italic">General principles. Project observations are labelled as such in docs/.</text>
+</svg>

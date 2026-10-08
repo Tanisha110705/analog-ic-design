@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="760" viewBox="0 0 900 760" role="img" aria-label="Analog design flow used across the studies">
+<title>Analog design flow used across the studies</title>
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1f2933"/></marker></defs>
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="450" y="34" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#1f2933" text-anchor="middle" font-weight="bold">Analog Design Flow</text>
+<text x="450" y="56" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#52606d" text-anchor="middle" font-weight="normal">Device data first, circuit second: every sizing decision is read from a simulated characteristic</text>
+<rect x="60" y="80" width="380" height="56" rx="8" fill="#eef4fb" stroke="#0b6bcb" stroke-width="1.5"/>
+<text x="250.0" y="103.16666666666667" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#1f2933" text-anchor="middle" font-weight="bold">MOSFET characterization</text>
+<text x="250.0" y="122.16666666666667" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#52606d" text-anchor="middle" font-weight="normal">DC sweeps of VGS / VDS on a single device</text>
+<line x1="250.0" y1="136" x2="250.0" y2="152" stroke="#1f2933" stroke-width="2" marker-end="url(#arr)"/>
+<rect x="60" y="154" width="380" height="56" rx="8" fill="#eef4fb" stroke="#0b6bcb" stroke-width="1.5"/>
+<text x="250.0" y="177.16666666666666" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#1f2933" text-anchor="middle" font-weight="bold">Select operating region</text>
+<text x="250.0" y="196.16666666666666" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#52606d" text-anchor="middle" font-weight="normal">inversion level via gm/Id</text>
+<line x1="250.0" y1="210" x2="250.0" y2="226" stroke="#1f2933" stroke-width="2" marker-end="url(#arr)"/>
+<rect x="60" y="228" width="380" height="56" rx="8" fill="#eef4fb" stroke="#0b6bcb" stroke-width="1.5"/>
+<text x="250.0" y="251.16666666666666" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#1f2933" text-anchor="middle" font-weight="bold">Choose gm/Id</text>
+<text x="250.0" y="270.16666666666663" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#52606d" text-anchor="middle" font-weight="normal">from gain / bandwidth / current budget</text>
+<line x1="250.0" y1="284" x2="250.0" y2="300" stroke="#1f2933" stroke-width="2" marker-end="url(#arr)"/>
+<rect x="60" y="302" width="380" height="56" rx="8" fill="#eef4fb" stroke="#0b6bcb" stroke-width="1.5"/>
+<text x="250.0" y="325.1666666666667" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#1f2933" text-anchor="middle" font-weight="bold">Determine W and bias</text>
+<text x="250.0" y="344.1666666666667" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#52606d" text-anchor="middle" font-weight="normal">VGS from gm/Id–VGS, W from Id/W</text>
+<line x1="250.0" y1="358" x2="250.0" y2="374" stroke="#1f2933" stroke-width="2" marker-end="url(#arr)"/>
+<rect x="60" y="376" width="380" height="56" rx="8" fill="#eef4fb" stroke="#0b6bcb" stroke-width="1.5"/>
+<text x="250.0" y="399.1666666666667" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#1f2933" text-anchor="middle" font-weight="bold">Build the circuit</text>
+<text x="250.0" y="418.1666666666667" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#52606d" text-anchor="middle" font-weight="normal">Virtuoso schematic</text>
+<line x1="250.0" y1="432" x2="250.0" y2="448" stroke="#1f2933" stroke-width="2" marker-end="url(#arr)"/>
+<rect x="60" y="450" width="380" height="56" rx="8" fill="#eef4fb" stroke="#0b6bcb" stroke-width="1.5"/>
+<text x="250.0" y="473.1666666666667" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#1f2933" text-anchor="middle" font-weight="bold">DC analysis</text>
+<text x="250.0" y="492.1666666666667" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#52606d" text-anchor="middle" font-weight="normal">bias current, transfer curve, Iout–Vout</text>
+<line x1="250.0" y1="506" x2="250.0" y2="522" stroke="#1f2933" stroke-width="2" marker-end="url(#arr)"/>
+<rect x="60" y="524" width="380" height="56" rx="8" fill="#eef4fb" stroke="#0b6bcb" stroke-width="1.5"/>
+<text x="250.0" y="547.1666666666666" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#1f2933" text-anchor="middle" font-weight="bold">AC / pole-zero analysis</text>
+<text x="250.0" y="566.1666666666666" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#52606d" text-anchor="middle" font-weight="normal">gain magnitude, f−3dB, poles</text>
+<line x1="250.0" y1="580" x2="250.0" y2="596" stroke="#1f2933" stroke-width="2" marker-end="url(#arr)"/>
+<rect x="60" y="598" width="380" height="56" rx="8" fill="#eef4fb" stroke="#0b6bcb" stroke-width="1.5"/>
+<text x="250.0" y="621.1666666666666" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#1f2933" text-anchor="middle" font-weight="bold">Evaluate gain / bandwidth / current</text>
+<text x="250.0" y="640.1666666666666" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#52606d" text-anchor="middle" font-weight="normal">compare with the hand calculation</text>
+<line x1="250.0" y1="654" x2="250.0" y2="670" stroke="#1f2933" stroke-width="2" marker-end="url(#arr)"/>
+<rect x="60" y="672" width="380" height="56" rx="8" fill="#eef4fb" stroke="#0b6bcb" stroke-width="1.5"/>
+<text x="250.0" y="695.1666666666666" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#1f2933" text-anchor="middle" font-weight="bold">Trade-off analysis</text>
+<text x="250.0" y="714.1666666666666" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#52606d" text-anchor="middle" font-weight="normal">headroom, output resistance, speed</text>
+<line x1="445" y1="109" x2="485" y2="109" stroke="#52606d" stroke-width="1.2" stroke-dasharray="4 3"/>
+<text x="492" y="113" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#52606d" text-anchor="start" font-weight="normal">PMOS: Id–VGS, Id–VDS, gm, Cgs, Vdsat, Vth, gm/Id, fT</text>
+<line x1="445" y1="183" x2="485" y2="183" stroke="#52606d" stroke-width="1.2" stroke-dasharray="4 3"/>
+<text x="492" y="187" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#52606d" text-anchor="start" font-weight="normal">NMOS gm/Id + Id/W sweeps per design</text>
+<line x1="445" y1="257" x2="485" y2="257" stroke="#52606d" stroke-width="1.2" stroke-dasharray="4 3"/>
+<text x="492" y="261" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#52606d" text-anchor="start" font-weight="normal">CS: 5.34 V⁻¹ · cascode: 13.34 · mirror: 10 · active load: 5.658</text>
+<line x1="445" y1="331" x2="485" y2="331" stroke="#52606d" stroke-width="1.2" stroke-dasharray="4 3"/>
+<text x="492" y="335" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#52606d" text-anchor="start" font-weight="normal">e.g. CS: VGS 760.99 mV, Id/W 72.23 A/m</text>
+<line x1="445" y1="405" x2="485" y2="405" stroke="#52606d" stroke-width="1.2" stroke-dasharray="4 3"/>
+<text x="492" y="409" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#52606d" text-anchor="start" font-weight="normal">UMC 180 nm (umc_18) · active load: n18/p18 devices</text>
+<line x1="445" y1="479" x2="485" y2="479" stroke="#52606d" stroke-width="1.2" stroke-dasharray="4 3"/>
+<text x="492" y="483" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#52606d" text-anchor="start" font-weight="normal">mirror Iout vs Vout at 100 µA and 500 µA</text>
+<line x1="445" y1="553" x2="485" y2="553" stroke="#52606d" stroke-width="1.2" stroke-dasharray="4 3"/>
+<text x="492" y="557" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#52606d" text-anchor="start" font-weight="normal">CS: Spectre pz · cascode: 20.13 MHz −3 dB point</text>
+<line x1="445" y1="627" x2="485" y2="627" stroke="#52606d" stroke-width="1.2" stroke-dasharray="4 3"/>
+<text x="492" y="631" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#52606d" text-anchor="start" font-weight="normal">target vs reported tables in docs/results.md</text>
+<line x1="445" y1="701" x2="485" y2="701" stroke="#52606d" stroke-width="1.2" stroke-dasharray="4 3"/>
+<text x="492" y="705" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#52606d" text-anchor="start" font-weight="normal">simple vs cascode mirror; gain vs bandwidth</text>
+<text x="450.0" y="748" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#52606d" text-anchor="middle" font-weight="normal" font-style="italic">Conceptual flow. Values on the right are documented in docs/ with their evidence.</text>
+</svg>

@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="740" height="500" viewBox="0 0 740 500" role="img" aria-label="Common-source amplifier with resistive load">
+<title>Common-source amplifier with resistive load</title>
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1f2933"/></marker></defs>
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="370" y="32" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#1f2933" text-anchor="middle" font-weight="bold">Common-Source Amplifier, Resistive Load (as simulated)</text>
+<line x1="300" y1="80" x2="670" y2="80" stroke="#1f2933" stroke-width="2.5"/>
+<text x="485.0" y="72" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#1f2933" text-anchor="middle" font-weight="bold">VDD = 1.8 V</text>
+<polyline points="360,80 360,102.0 369,107.5 351,118.5 369,129.5 351,140.5 369,151.5 351,162.5 360,168.0 360,190" fill="none" stroke="#1f2933" stroke-width="2" stroke-linejoin="round"/>
+<text x="376" y="133.0" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#1f2933" text-anchor="start" font-weight="bold">RD = 1.5 kΩ</text>
+<text x="376" y="149.0" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#52606d" text-anchor="start" font-weight="normal">hand calc: 1.52 kΩ</text>
+<line x1="360" y1="190" x2="360" y2="218" stroke="#1f2933" stroke-width="2"/>
+<circle cx="360" cy="205" r="3.5" fill="#1f2933"/>
+<line x1="338" y1="240" x2="338" y2="280" stroke="#1f2933" stroke-width="3"/>
+<line x1="329" y1="244" x2="329" y2="276" stroke="#1f2933" stroke-width="2"/>
+<line x1="304" y1="260" x2="329" y2="260" stroke="#1f2933" stroke-width="2"/>
+<polyline points="338,246 360,246 360,218" fill="none" stroke="#1f2933" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="338,274 360,274 360,302" fill="none" stroke="#1f2933" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="356,274 348,269 348,279" fill="#1f2933"/>
+<text x="392" y="258" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#1f2933" text-anchor="start" font-weight="bold">M1</text>
+<text x="392" y="274" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#52606d" text-anchor="start" font-weight="normal">W/L = 8.4 µm / 180 nm</text>
+<line x1="360" y1="205" x2="520" y2="205" stroke="#1f2933" stroke-width="2"/>
+<circle cx="520" cy="205" r="3.5" fill="#1f2933"/>
+<line x1="520" y1="205" x2="580" y2="205" stroke="#1f2933" stroke-width="2" marker-end="url(#arr)"/>
+<text x="586" y="210" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#0b6bcb" text-anchor="start" font-weight="bold">VOUT</text>
+<line x1="520" y1="205" x2="520" y2="287.5" stroke="#1f2933" stroke-width="2"/>
+<line x1="506" y1="287.5" x2="534" y2="287.5" stroke="#1f2933" stroke-width="2.5"/>
+<line x1="506" y1="297.5" x2="534" y2="297.5" stroke="#1f2933" stroke-width="2.5"/>
+<line x1="520" y1="297.5" x2="520" y2="380" stroke="#1f2933" stroke-width="2"/>
+<text x="540" y="297.5" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#1f2933" text-anchor="start" font-weight="bold">CL = 5 pF</text>
+<line x1="360" y1="302" x2="360" y2="380" stroke="#1f2933" stroke-width="2"/>
+<line x1="140" y1="380" x2="670" y2="380" stroke="#1f2933" stroke-width="2.5"/>
+<line x1="360" y1="380" x2="360" y2="388" stroke="#1f2933" stroke-width="2"/>
+<line x1="348" y1="388" x2="372" y2="388" stroke="#1f2933" stroke-width="2"/>
+<line x1="353" y1="393" x2="367" y2="393" stroke="#1f2933" stroke-width="2"/>
+<line x1="357" y1="398" x2="363" y2="398" stroke="#1f2933" stroke-width="2"/>
+<line x1="304" y1="260" x2="140" y2="260" stroke="#1f2933" stroke-width="2"/>
+<line x1="140" y1="260" x2="140" y2="304.0" stroke="#1f2933" stroke-width="2"/>
+<line x1="140" y1="336.0" x2="140" y2="380" stroke="#1f2933" stroke-width="2"/>
+<circle cx="140" cy="320.0" r="16" fill="white" stroke="#1f2933" stroke-width="2"/>
+<path d="M131,320.0 q4.5,-9 9,0 t9,0" fill="none" stroke="#1f2933" stroke-width="1.6"/>
+<text x="116" y="312" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#1f2933" text-anchor="end" font-weight="bold">VIN</text>
+<text x="116" y="328" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#52606d" text-anchor="end" font-weight="normal">DC 771 mV</text>
+<text x="116" y="342" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#52606d" text-anchor="end" font-weight="normal">AC mag 1 V</text>
+<line x1="670" y1="80" x2="670" y2="214.0" stroke="#1f2933" stroke-width="2"/>
+<line x1="670" y1="246.0" x2="670" y2="380" stroke="#1f2933" stroke-width="2"/>
+<circle cx="670" cy="230.0" r="16" fill="white" stroke="#1f2933" stroke-width="2"/>
+<text x="670" y="227.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#1f2933" text-anchor="middle" font-weight="normal">+</text>
+<text x="670" y="241.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#1f2933" text-anchor="middle" font-weight="normal">−</text>
+<text x="694" y="236" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#52606d" text-anchor="start" font-weight="normal">1.8 V</text>
+<text x="370" y="432" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#52606d" text-anchor="middle" font-weight="normal">Av ≈ −gm·(RD ‖ ro); one dominant pole at the output node, p ≈ 1 / (2π·Rout·Cout)</text>
+<text x="370" y="450" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#0b6bcb" text-anchor="middle" font-weight="normal">Spectre pz: DC gain 3.886 V/V, pole −25.97 MHz, RHP zero +154.1 GHz</text>
+<text x="370.0" y="488" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#52606d" text-anchor="middle" font-weight="normal" font-style="italic">Redrawn from the Virtuoso schematic (UMC 180 nm, N_18_MM). Not simulation output.</text>
+</svg>
